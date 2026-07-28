@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code & IDEs
+.vscode/
+.idea/
+*.swp
+
+# Temporary & Backup files
+*.bak
+*.tmp
+*.log
+
+# Environment & Sensitive Credentials
+.env
+.env.*
+*.pem
+*.ppk
+id_rsa
+id_rsa.pub
+
+# AWS Credentials & Configs
+.aws/
+credentials
+config
+
+# Terraform (Infrastructure as Code)
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+*.tfvars
+
+# Python / Node
+__pycache__/
+*.pyc
+node_modules/
+
+# Archives
+*.zip
+*.tar
+*.gz
